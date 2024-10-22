@@ -1,0 +1,642 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .logoimg{
+    height: 50px;
+    width: 50px;
+
+} */
+/* :root{
+    --primary:black;
+} */
+.navbar{
+    /* position :fixed;
+    width: 900px; */
+    position:fixed;
+    width: 100%;
+    
+   display: flex;
+   height: 80px;
+   background-color: white;
+   align-items: center;
+   justify-content: space-between;
+}
+.navbar .nav-text{
+    
+    margin-left: 90px;
+    
+}
+.nav-text h1{
+    color: blue;
+    font-size: 38px;
+}
+.navlink{
+   
+}
+.navlink a:hover{
+    border-width: 2px;
+    border-bottom: 1px solid rebeccapurple;
+    color: red  ;
+}
+.navlink ul li{
+    display: inline;
+   
+    margin-left: 0px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+.navlink a{
+    text-decoration: none;
+    color: black;
+}
+.main {
+    display: flex;
+    align-items: center;
+
+    /* width: 100%; */
+
+    height: 700px;
+    background-image: linear-gradient( rgba(93, 112, 218, 0.71), rgba(70, 109, 218, 0.71)),url(image/offfice1.webp);
+    background-size: cover;
+
+}
+ .circle{
+    margin-left:40px ;
+   
+    border-radius: 100%;
+
+    height: 500px;
+    width: 500px;
+    background:rgb(88, 104, 214) ;
+    color: white;
+   
+}
+.circle .text{
+    position: relative;
+    
+
+}
+.circle .text h1{
+    /* margin-top: 60px; */
+  position: relative;   
+  top: 150px;
+  left: 120px;
+  /* font-size: 2rem; */
+ 
+}
+ .text .a{
+    font-size: 40px;}
+ 
+ .text .b{
+font-size: 40px;
+ }
+
+
+.circle .text p{
+    position: relative;
+    top: 160px;
+  left: 130px;
+}
+.circle .text button{
+    position: relative;
+    top: 180px;
+    left: 150px;
+    height: 35px;
+    width: 150px;
+  
+    background: orange;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+}
+.circle .text button:hover{
+    background-color:rgb(43, 226, 119);
+    transition: all 0.3s ease-out;
+}
+
+.box-2{
+    height: 900px;
+    display: flex;
+  
+    /* align-items: center; */
+    justify-content: center ;
+   
+    background-color: antiquewhite;
+}
+ .box-2 .box-text h1{
+    
+margin-top: 20px;
+text-align: center;
+align-items: center;
+}
+.box-3{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 40px;
+
+gap: 50px;
+}
+.box-3 .emp{
+   
+    /* text-align: center; */
+    
+    height: 180px;
+    width: 250px;
+    background-color: rgb(42, 5, 136);
+    color: white;
+}
+.box-3 i{
+    margin: 10px 0px 0px 15px;
+    font-size: 20px;
+ 
+}
+.box-3 h3{
+    margin: 10px 0px 0px 15px;
+    font-size: 20px;
+}
+.box-3 p{
+    margin: 10px 0px 0px 15px;
+    /* color: grey; */
+    
+  
+}
+.job i{
+    color: orange;
+}
+.partner i{
+    color: orange;
+}
+.box-3 .job{
+   
+    /* text-align: center; */
+    
+    height: 180px;
+    width: 250px;
+   
+    background-color: white;
+}
+.box-3 .partner{
+   
+   
+    /* text-align: center; */
+    
+    height: 180px;
+    width: 250px;
+    background-color: white;
+}
+.item1{
+   color: rgb(13, 10, 10);
+    border-radius: 5px;
+    
+    box-shadow: 12px 12px 20px 2px grey ;
+}
+
+
+.img-3{
+margin-top:50px ;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.img-box{
+    position: relative;
+    right: 100px;
+height: 500px;
+width: 600px;
+background-size: cover;
+    background-image: url(image/office2.webp)
+}
+.aboutus{
+    position: relative;
+    color: white;
+    right: 200px;
+height: 400px;
+width: 400px;
+background-color: rgb(11, 18, 138);
+}
+.aboutus p{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.aboutus button{
+margin-top: 30px;
+margin-left: 25px;
+width: 150px;
+height: 30px;
+border-radius: 5px;
+border: none;
+background: rgb(217, 104, 12);
+color: white;
+}
+.aboutus button:hover{
+    background-color: rgb(228, 228, 28);
+    color: black;
+}
+.boxmain{
+    height: 500px;
+    background-color: rgb(212, 219, 221);
+    display: flex;
+    /* align-items: center; */
+    justify-content:center ;
+   
+}
+ .boxmain .text-main h1{
+   margin-top: 20px;
+ }
+ .text-main h1{
+  text-align: center;
+  
+  font-weight: bold;
+ 
+  
+  font-size: 35px;
+ }
+ .servicebox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    box-shadow: 12px 12px 10px 20 px gray;
+    
+    gap: 60px;
+    font-size: 14px;
+   
+       
+
+ }
+ .hrsol{
+
+    
+    height: 150px;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px 10px  gray;
+    box-shadow: 12px 12px 10px 2px grey ;
+    
+    width: 230px;
+    background-color: white;
+ }
+ .line{
+    /* border-bottom: 1px solid rgb(135, 34, 34); */
+    
+  
+ }
+
+ .hrsol i {
+   margin-top: 40px;
+ }
+ .hrsol h3{
+    margin-top: 10px;
+ }
+ .hrsolone{
+    height: 150px;
+    text-align: center;
+    border-radius: 2px;
+    
+    box-shadow: 12px 12px 10px 2px grey ;
+    
+    width: 230px;
+    background-color:rgb(7, 15, 169);
+ }
+ .hrsolone i {
+    margin-top: 40px;
+    color: white;
+  }
+  .hrsolone h3{
+     margin-top: 10px;
+     color: white;
+  }
+  .item2 i{
+    font-size: 20px;
+ }
+ .yearexp{
+    height: 500px;
+    display: flex;
+   
+   
+    justify-self: space-between;
+   
+    background-color: white;
+ }
+ .yearbox{
+ position: relative;
+display: flex;
+margin-top: 100px;
+
+    /* align-items: center; */
+    justify-content: space-between;
+
+   
+
+ }
+ 
+ .yr1 h1{
+    text-align:start;
+    margin: 9px 0px 0px 18px;
+    font-size: 40px;
+    font-weight: bold;
+
+ }
+ .yr1 span{
+    margin: 7px;
+    color: orange;
+ }
+ 
+ .yearbox .yr1{
+    position: relative;
+   left: 350px;
+   /* color: green; */
+   
+    
+    height: 100px;
+    /* margin: 10px; */
+
+    width: 170px;
+    
+    text-align: center;
+    background-color: white;
+ }
+ .item3{
+    margin: 0px 0px;
+    border: 1px solid black;
+    box-shadow: 1px 5px 15px 1px gray;
+    
+ }
+ .yeartext{
+    margin-top: 120px;
+ }
+ .yeartext h1 {
+    font-size: 45px;
+    color: blue;
+  
+  /* text-align: end; */
+    margin-left:100px ;
+ }
+ .yeartext p{
+    margin-top: 20px;
+    margin-left:100px ;
+ }
+ .yearbox .yr2{
+    height: 100px;
+    width: 200px;
+    position: relative;
+    background-color: white;
+    margin-top: 80px;
+left: 70px;
+ }
+ .yr2 h1{
+    text-align:start;
+    /* margin: 1px 0px 0px 1px; */
+    font-size: 40px;
+    font-weight: bold;
+
+ }
+ .yr2 span{
+    margin: 13px;
+    color: orange;
+ }
+ .yearbox .yr3{
+    height: 100px;
+    width: 200px;
+    position: relative;
+    background-color: white;
+    margin-top: 110px;
+left: 40px;
+ }
+ .yr3 h1{
+   
+    text-align:start;
+    /* margin: 10px 0px 0px 1px; */
+    font-size: 40px;
+    font-weight: bold;
+
+ }
+ .yr3 span{
+    margin: 13px;
+    color: orange;
+ }
+.yr4{
+    height: 100px;
+    width: 170px;
+    position: relative;
+    background-color:white;
+    margin-top: 190px;
+left: -300px;
+ }
+ .yr4 h1{
+   
+    text-align:start;
+    margin: 1px 0px 0px 1px;
+    font-size: 40px;
+    font-weight: bold;
+
+ }
+ .yr4 span{
+    margin: 13px;
+    color: orange;
+ }
+ .btn1{
+    margin-left: 110px;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+    height: 35px;
+    width: 130px;
+    border: none;
+    color: white;
+  background: orange;
+    font-weight: bold;
+    /* transition: all 3s ease-out steps(3) 1s; */
+
+ }
+ .btn1:hover{
+    background: rebeccapurple;
+    transition:   all 3s ease-in 0s;
+
+ }
+ .freecons{
+    height: 250px;
+    background-image:url(image/office.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+  /* filter: blur(1px); */
+  
+ }
+ .freetext {
+    /* margin-top: 10px; */
+    color: white;
+    /* font-weight: bold; */
+     display: inline-block;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+ }
+ .freetext h1{
+    margin-left: 150px;
+    font-size: 35px;
+    gap: 100px;
+    /* font-family: Arial; */
+    
+    margin-top: 80px;
+ }
+ .freetext p{
+    margin-left: 150px;
+    /* margin-top: 10px; */
+    font-size: 20px;
+ }
+ .freetext a{
+    color: white;
+ }
+ .btncon{
+    position: relative;
+  left: 900px;
+  height: 35px;
+  width: 165px;
+  border-radius: 4px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+ }
+ 
+ 
+.whatform{
+    height: 400px;
+    background-color:ghostwhite;
+}
+.formtext{
+    text-align: center;
+   
+   
+}
+.forminp{
+    margin-top: 30px;
+}   
+.forminp input{
+    height: 25px;
+    width: 250px;
+}
+.forminp ::placeholder{
+text-align: start;
+margin-left: 7px;
+/* color: red; */
+}
+.formrea{
+    margin-top: 20px;
+}
+.formrea input{
+    height: 25px;
+    width: 250px;
+}
+.formrea ::placeholder{
+text-align: start;
+margin-left: 7px;
+/* color: red; */
+}
+.feedbak{
+    margin-top: 10px;
+    
+
+}
+.feedbak textarea{
+    width: 500px;
+}
+.par{
+    /* margin-top: 20px; */
+}
+
+.par p{
+    margin-left:-340px;
+    color:rgb(12, 5, 5);
+
+}
+.sub{
+   
+    margin-top: 15px;
+    
+}
+.sub input{
+    height: 35px;
+    width: 250px;
+    
+    border-radius: 5px;
+    color:black;
+    color: white;
+    border: none;
+    background: rgb(255, 98, 0);
+}
+.sub input:hover{
+    background-color: #624E88;
+}
+.footer{
+    height: 200px;
+    background-color: white;
+   
+}
+.footlogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.foottext {
+    display: flex;
+    align-items: center;
+}
+.foottext li{
+    display: flex;
+}
+.divtext{
+    margin-top: 50px;
+    margin-right: 60px;
+}
+.divtext li{
+    margin-top: 10px;
+    list-style: none;
+}
+.divtext a{
+text-decoration: none;
+}
+.divlast{
+    margin-top: 50px;
+    margin-right: 300px;
+}
+.divlast li{
+    margin-top: 10px;
+    list-style: none;
+}
+.divlast a{
+text-decoration: none;
+}
+.fotin{
+    position: relative;
+    margin-top: 100px;
+    left: -300px;
+}
+.fotin input{
+    height: 20px;
+    width: 200px;
+    margin-left: 20px;
+}
+.btnte{
+    height: 26px;
+    width: 100px;
+    border: none;
+    background-color: rgb(247, 119, 0);
+}
+ 
+@media only screen and(max-width:767px) {
+navbar{
+    display: block;
+    font-size: 20px;
+    
+}
+    
+}
